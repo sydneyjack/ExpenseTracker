@@ -101,7 +101,7 @@ Expense Tracker
 
 Video demonstration and code walkthrough:
 
-**Video link:** Add your YouTube video link here after recording.
+**Video link:** https://youtu.be/zSYrxYcBekE
 
 ## Author
 
