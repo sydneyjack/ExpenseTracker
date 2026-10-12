@@ -1,10 +1,10 @@
 # Overview
 
-This project is a web application called Study Task Manager. I created it using Python and Django to practice how to build web applications and managing data with a database.
+This project is a web application called Study Task Manager. I created it using Python and Django to practice building web applications and managing data with a database.
 
 The application allows users to add study tasks, view their task details, mark tasks as completed or pending, and delete tasks they no longer need. It also displays the total number of tasks, completed tasks, and pending tasks. The application uses SQLite to store task information.
 
-[\[Software Demo Video\]https://youtu.be/zSYrxYcBekE](https://youtu.be/zSYrxYcBekE)
+Software Demo Video:https://youtu.be/zSYrxYcBekE
 
 # Development Environment
 
