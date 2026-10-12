@@ -1,112 +1,30 @@
-# Expense Tracker
+# Overview
 
-This project is a simple expense tracking program built with Python and SQLite. It allows users to add, view, update, and delete expense records stored in a relational database.
+This project is a web application called Study Task Manager. I created it using Python and Django to practice how to build web applications and managing data with a database.
 
-## Description
+The application allows users to add study tasks, view their task details, mark tasks as completed or pending, and delete tasks they no longer need. It also displays the total number of tasks, completed tasks, and pending tasks. The application uses SQLite to store task information.
 
-The Expense Tracker uses Python to interact with a SQLite relational database. The program creates an `expenses` table and uses SQL commands to manage expense information.
+[\[Software Demo Video\]https://youtu.be/zSYrxYcBekE](https://youtu.be/zSYrxYcBekE)
 
-The program allows the user to:
+# Development Environment
 
-* Add an expense
-* View all expenses
-* Update an expense
-* Delete an expense
-* View the total and average expense amounts
-* Exit the program
+I developed this software using Visual Studio Code, Python, and Django. I used Git for version control and GitHub to store and manage the source code.
 
-## Technologies Used
+The programming language used for this project is Python. I used Django to build the web application, HTML for the web pages, and SQLite for the database.
 
-* Python
-* SQLite
-* SQL
-* VS Code
-* Git and GitHub
+The program demonstrates several web development concepts, including:
 
-## Database
+- Python functions
+- Django models and views
+- URL routing
+- HTML templates
+- Forms and user input
+- Database operations
+- Create, read, update, and delete operations
 
-The program creates a SQLite database named:
+# Useful Websites
 
-`expenses.db`
-
-The database contains an `expenses` table with the following columns:
-
-| Column      | Type    | Description                |
-| ----------- | ------- | -------------------------- |
-| id          | INTEGER | Unique ID for each expense |
-| description | TEXT    | Description of the expense |
-| category    | TEXT    | Expense category           |
-| amount      | REAL    | Amount spent               |
-| date        | TEXT    | Date of the expense        |
-
-The `id` column is the primary key.
-
-## SQL Requirements Demonstrated
-
-### Create a Database and Table
-
-The program creates the SQLite database and the `expenses` table when it starts.
-
-### Insert Data
-
-The program uses an SQL `INSERT` statement to add new expenses.
-
-### Retrieve Data
-
-The program uses an SQL `SELECT` statement to retrieve and display expenses.
-
-### Modify Data
-
-The program uses an SQL `UPDATE` statement to modify an existing expense.
-
-### Delete Data
-
-The program uses an SQL `DELETE` statement to remove an expense.
-
-### Aggregate Functions
-
-The program uses two SQL aggregate functions:
-
-* `SUM()` to calculate the total amount of expenses.
-* `AVG()` to calculate the average expense amount.
-
-## How to Run
-
-1. Make sure Python is installed.
-2. Clone or download this repository.
-3. Open the project folder in VS Code.
-4. Open the terminal.
-5. Run:
-
-```text
-python expense_tracker.py
-```
-
-6. Use the menu to select an option.
-
-## Example Menu
-
-```text
-Expense Tracker
-----------------
-1. Add Expense
-2. View Expenses
-3. Update Expense
-4. Delete Expense
-5. Show Summary
-6. Exit
-```
-
-## Video
-
-Video demonstration and code walkthrough:
-
-**Video link:** https://youtu.be/zSYrxYcBekE
-
-## Author
-
-Sobomabo Boma Sydney
-
-CSE 310 - Applied Programming
-
-Module 2 - SQL Relational Databases
+- [Django Documentation](https://docs.djangoproject.com/)
+- [Python Documentation](https://docs.python.org/3/)
+- [MDN Web Docs](https://developer.mozilla.org/)
+- [Visual Studio Code](https://code.visualstudio.com/)
